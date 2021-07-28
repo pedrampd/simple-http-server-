@@ -1,0 +1,41 @@
+
+
+html {
+  font: 81.25% arial, helvetica, sans-serif;
+  color: #333;
+  line-height: 1;
+}
+a {
+  color: #15c;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  font: arial, helvetica, sans-serif;
+  color: #333;
+  line-height: 1;
+  font-size: large;
+}
+p.thick {
+  font-weight: bold;
+}
+
+
+/* FORM */
+form {
+  margin: 10px 290px;
+  width: 362px;
+  padding: 25px;
+  background: #f1f1f1;
+  border: 1px solid #e5e5e5;
+
+}
+label {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin: 0 0 .5em;
+  font-weight: bold;
+  color: #222;
+}
+

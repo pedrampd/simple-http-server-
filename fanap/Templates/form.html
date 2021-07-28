@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+ {% load static %}
+ <html>
+ <head>
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+</body>
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+
+
+<form method="get">
+    <input type="submit" value="Get">
+</form>
+<p class="thick">
+{{ answer }}
+</p>
+</body>
+</html>
